@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "/style.css">
+</head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<body>
+    <header>
+    <nav>
+    <div class = "left">Ahana's Portfolio</div>
+    <div class = "right">
+        <ul>
+            <a href = "/"><li>Home</a></li>
+            <a href = "/"><li>Services</a></li>
+            <a href = "/"><li>Projects</a></li>
+            <a href = "/"><li>About</a></li>
+        </ul>
+    </div>
+    </nav>
+    </header>
+    <main>
+        <section class = "first-section">
+            <div class = "left-section">
+                Hi,my name is <span class = "purple">Ahana</span>, and I am a passionate <span id = "element"></span>. 
+            </div>
+            <div class = "right-section">
+                <img src = "developer.jpg" attribute = "developer">
+            </div>
+        </section>
+        <section class = "second-section">
+            <hr>
+            <span class = "text-gray">What I have done so far</span>
+            <h1>Work Experiences</h1>
+            <div class = "box">
+            <div class = "vertical"></div>
+            <div></div>
+            <div class = "vertical"></div>
+            <div class = "vertical"></div>
+            <div class = "vertical"></div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Programmer','Web Designer'],
+          typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>

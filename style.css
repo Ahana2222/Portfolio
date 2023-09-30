@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(4, 4, 68);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    font-size: 1.1rem;;
+    background-color: rgb(14, 14, 102);
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+nav ul li
+{
+    list-style: none;
+     margin: 0 23px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover
+{
+    color: rgb(74, 74, 206);
+    font-size: 1.5;
+}
+.left
+{
+    font-size: 1.7rem;
+}
+.first-section
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.first-section div
+{
+    width: 30%;
+}
+.left-section
+{
+    margin: 80px;
+    font-size: 2.3rem;
+}
+.purple
+{
+    color:blueviolet;
+}
+#element
+{
+    color: blueviolet;
+}
+.second-section
+{
+    margin: 80px;
+    font-size: 1.5rem;
+}
+hr
+{
+    border: 0;
+    margin-bottom: 50px;
+    background-color: rgb(101, 57, 213);;
+    height: 1.2px;
+}
+.text-gray
+{
+    font-size: 1rem;
+    color:grey;  
+}
+.second-section .box
+{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0 0 0;
+    display: flex;
+}
+.second-section .vertical
+{
+    margin: 0 100px;  
+    height: 93px;
+    width: 1px;
+    background-color: white;
+     
+}
